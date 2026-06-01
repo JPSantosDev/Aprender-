@@ -9,7 +9,6 @@ import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
 fun BuscarFiltrar(
-    modifier: Modifier = Modifier,
     valor:String,
     aoMudarValor: (String) -> Unit,
 ){
@@ -17,9 +16,9 @@ fun BuscarFiltrar(
         value = valor,
         onValueChange = aoMudarValor,
         placeholder = {Text("Buscar")},
+        label = {Text("Buscar")},
         singleLine = true
     )
-
 }
 
 @Composable

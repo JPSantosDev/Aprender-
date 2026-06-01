@@ -35,7 +35,7 @@ fun Cabecalho(modifier: Modifier = Modifier){
         )
 
         Text(
-            text = "Explore cursos técnicos e profissionalizantes",
+            text = "Explore cursos técnicos e profissionalizantes.",
             style = MaterialTheme.typography.bodySmall
         )
     }
